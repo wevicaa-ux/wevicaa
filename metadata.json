@@ -1,0 +1,6 @@
+{
+  "name": "Kimi iPhone Repair & Accessories",
+  "description": "Official website for Kimi iPhone Repair & Accessories at 259 B Canal St, New York. Browse available devices, book express repair services, and get instant quotes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
