@@ -55,10 +55,10 @@ export const ReviewsSection: React.FC = () => {
               <span>Verified Customer Feedback</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-100 tracking-tight">
-              Customer Reviews on Canal St
+              Customer Reviews in Rialto, CA
             </h2>
             <p className="text-neutral-400 text-sm sm:text-base mt-1">
-              Read authentic feedback from New Yorkers and visitors who got their phones fixed at 259 B Canal St.
+              Read authentic feedback from local customers who got their devices repaired at 869 E Foothill Blvd.
             </p>
           </div>
 
@@ -94,7 +94,7 @@ export const ReviewsSection: React.FC = () => {
                     <Star key={i} className="w-4 h-4 fill-amber-400" />
                   ))}
                 </div>
-                <p className="text-[11px] text-neutral-400">Over 300+ Canal St Repairs</p>
+                <p className="text-[11px] text-neutral-400">Over 500+ Inland Empire Repairs</p>
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@ export const ReviewsSection: React.FC = () => {
             </div>
             <div className="bg-neutral-950 p-3 rounded-xl border border-neutral-800">
               <span className="text-neutral-400 block text-[11px]">Service Location</span>
-              <strong className="text-sm font-bold text-neutral-100">259 B Canal St, NYC</strong>
+              <strong className="text-sm font-bold text-neutral-100">869 E Foothill Blvd, Rialto</strong>
             </div>
           </div>
         </div>
@@ -118,9 +118,9 @@ export const ReviewsSection: React.FC = () => {
         {/* Add Review Form Modal/Drawer */}
         {showAddForm && (
           <div className="bg-neutral-900 border border-neutral-750 rounded-2xl p-6 mb-8 shadow-xl max-w-2xl mx-auto">
-            <h3 className="text-base font-bold text-neutral-100 mb-1">Share Your Experience at Kimi</h3>
+            <h3 className="text-base font-bold text-neutral-100 mb-1">Share Your Experience</h3>
             <p className="text-xs text-neutral-400 mb-4">
-              Your honest feedback helps your neighbors find reliable phone repairs on Canal St.
+              Your honest feedback helps your neighbors find reliable phone repairs in Rialto, CA.
             </p>
 
             {!submittedFeedback ? (

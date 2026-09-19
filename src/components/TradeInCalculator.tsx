@@ -71,7 +71,7 @@ export const TradeInCalculator: React.FC = () => {
                   Sell or Trade Your Old Phone for Top Dollar
                 </h2>
                 <p className="text-neutral-400 text-sm sm:text-base mt-2">
-                  Upgrading? Don’t let your old device sit in a drawer. We pay top cash or instant trade-in credit toward any phone or repair at our Canal Street shop.
+                  Upgrading? Don’t let your old device sit in a drawer. We pay top cash or instant trade-in credit toward any phone or repair at our Rialto shop.
                 </p>
               </div>
 
@@ -194,7 +194,7 @@ export const TradeInCalculator: React.FC = () => {
                   </button>
                 ) : (
                   <div className="p-3 bg-emerald-500/10 border border-emerald-500/30 rounded-xl text-emerald-300 text-xs space-y-1">
-                    <p className="font-bold">Offer Locked! Bring device to 259 B Canal St</p>
+                    <p className="font-bold">Offer Locked! Bring device to 869 E Foothill Blvd</p>
                     <p className="text-[11px] text-neutral-300">
                       Show this screen to the technician for immediate fast-track payout after physical inspection.
                     </p>

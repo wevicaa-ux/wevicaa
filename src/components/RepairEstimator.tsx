@@ -159,7 +159,7 @@ export const RepairEstimator: React.FC<RepairEstimatorProps> = ({
             Instant Repair Price Quote &amp; Booking
           </h2>
           <p className="text-neutral-400 text-sm sm:text-base mt-2">
-            Select your phone model and issue for immediate transparent pricing. Reserve your parts online for priority walk-in service on Canal Street.
+            Select your phone model and issue for immediate transparent pricing. Reserve your parts online for priority walk-in service in Rialto, CA.
           </p>
         </div>
 
@@ -511,7 +511,7 @@ export const RepairEstimator: React.FC<RepairEstimatorProps> = ({
                     className="w-full py-2.5 px-3 rounded-lg bg-amber-500 hover:bg-amber-400 text-neutral-950 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors"
                   >
                     <MapPin className="w-3.5 h-3.5" />
-                    <span>Get Directions to 259 B Canal St</span>
+                    <span>Get Directions to 869 E Foothill Blvd</span>
                   </a>
 
                   <button

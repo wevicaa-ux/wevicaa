@@ -67,7 +67,7 @@ export const DeviceDetailModal: React.FC<DeviceDetailModalProps> = ({
             <span className="px-2 py-0.5 text-xs font-semibold rounded bg-amber-500/10 border border-amber-500/30 text-amber-400">
               {device.brand}
             </span>
-            <span className="text-xs text-neutral-400">In Stock at 259 B Canal St</span>
+            <span className="text-xs text-neutral-400">In Stock at 869 E Foothill Blvd</span>
           </div>
           <button
             onClick={onClose}
@@ -158,7 +158,7 @@ export const DeviceDetailModal: React.FC<DeviceDetailModalProps> = ({
                   <div>
                     <h4 className="text-sm font-bold text-neutral-100">Reserve &amp; Hold at Store</h4>
                     <p className="text-xs text-neutral-400">
-                      Zero deposit required. We will hold this device under your name at 259 B Canal St.
+                      Zero deposit required. We will hold this device under your name at 869 E Foothill Blvd.
                     </p>
                   </div>
                 </div>

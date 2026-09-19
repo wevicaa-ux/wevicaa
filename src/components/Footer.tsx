@@ -28,14 +28,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </div>
               <div>
                 <span className="font-bold text-lg text-neutral-100 tracking-tight">
-                  KIMI
+                  CELLPHONE REPAIR
                 </span>
-                <p className="text-xs text-neutral-400">iPhone Repair &amp; Accessories</p>
+                <p className="text-xs text-neutral-400">Repair &amp; Accessories • Rialto, CA</p>
               </div>
             </div>
 
             <p className="text-xs text-neutral-400 leading-relaxed">
-              Your neighborhood express mobile phone repair and unlocked device center at 259 B Canal St, New York. 20–45 minute screen and battery replacements backed by our 30-day warranty.
+              Your trusted express mobile phone repair and certified device center at 869 E Foothill Blvd, Rialto, CA. 20–45 minute screen and battery replacements backed by our 30-day warranty.
             </p>
 
             <div className="pt-1">
@@ -95,7 +95,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => onNavigate('location')}
                   className="hover:text-amber-400 transition-colors"
                 >
-                  Location, Map &amp; Transit Directions
+                  Location, Map &amp; Driving Directions
                 </button>
               </li>
               <li>
@@ -103,7 +103,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   onClick={() => onNavigate('reviews')}
                   className="hover:text-amber-400 transition-colors"
                 >
-                  Canal St Customer Reviews
+                  Verified Customer Reviews
                 </button>
               </li>
             </ul>
@@ -133,7 +133,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <div className="space-y-2 text-xs">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
-                <span>{STORE_INFO.address}, New York, NY 10013</span>
+                <span>{STORE_INFO.address}</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-amber-400 shrink-0" />
@@ -145,7 +145,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <Clock className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
                 <div>
                   <p>Mon - Sat: 10:00 AM – 7:30 PM</p>
-                  <p>Sunday: 11:00 AM – 6:30 PM</p>
+                  <p>Sunday: 11:00 AM – 6:00 PM</p>
                 </div>
               </div>
               <div className="pt-2">
@@ -162,7 +162,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
           <p>© {new Date().getFullYear()} {STORE_INFO.name}. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            <span>259 B Canal St, Chinatown, New York, NY</span>
+            <span>{STORE_INFO.address}</span>
             <span>•</span>
             <span>Walk-ins Welcome</span>
           </div>

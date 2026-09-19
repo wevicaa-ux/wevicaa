@@ -1,20 +1,20 @@
 import { DeviceItem, RepairService, ModelPricing, StoreReview } from '../types';
 
 export const STORE_INFO = {
-  name: 'Kimi iPhone Repair & Accessories',
-  shortName: 'Kimi iPhone Repair',
-  tagline: 'Fast, Affordable & Certified Express Mobile Repair in Canal St, New York',
-  address: '259 B Canal St, New York, NY 10013',
-  neighborhood: 'Chinatown / Lower Manhattan',
-  crossStreets: 'Between Broadway & Lafayette St',
-  phone: '(917) 790-9209',
-  phoneClean: '+19177909209',
-  email: 'support@kimiiphonerepair.com',
-  mapsUrl: 'https://maps.app.goo.gl/BNiapF8VgAGvxKBs8',
-  subway: 'Canal St Station (N, Q, R, W, J, Z, 6 trains) — directly across the street',
+  name: 'Cellphone Repair & Accessories',
+  shortName: 'Cellphone Repair',
+  tagline: 'Fast, Affordable & Certified Express Mobile Repair in Rialto, CA',
+  address: '869 E Foothill Blvd, Rialto, CA 92376',
+  neighborhood: 'Rialto / Inland Empire (San Bernardino County)',
+  crossStreets: 'Historic Route 66 between N Willow Ave & N Riverside Ave',
+  phone: '(909) 875-9185',
+  phoneClean: '+19098759185',
+  email: 'cpracustom@gmail.com',
+  mapsUrl: 'https://maps.app.goo.gl/Lyn6cendKThVgkpi8',
+  subway: 'Convenient access off I-10 & I-210 via Riverside Ave / Willow Ave — Free parking right out front',
   hours: [
     { days: 'Monday – Saturday', hours: '10:00 AM – 7:30 PM' },
-    { days: 'Sunday', hours: '11:00 AM – 6:30 PM' },
+    { days: 'Sunday', hours: '11:00 AM – 6:00 PM' },
   ],
   warranty: '30-Day Hassle-Free Warranty on Parts & Labor',
   turnaroundAvg: '20–45 Minutes',
@@ -476,7 +476,7 @@ export const REVIEWS_DATA: StoreReview[] = [
     rating: 5,
     date: '3 days ago',
     service: 'iPhone 14 Pro Screen Replacement',
-    comment: 'Dropped my phone stepping out of the subway at Canal St. Completely shattered screen. Kimi replaced it with a top quality OLED in literally 22 minutes while I grabbed a bubble tea next door. Super honest pricing, gave me a free tempered glass too. 10/10!',
+    comment: 'Dropped my phone in the parking lot in Rialto. Completely shattered screen. Cellphone Repair replaced it with a top quality OLED in literally 22 minutes while I ran an errand on Foothill Blvd. Super honest pricing, gave me a free tempered glass too. 10/10!',
     verified: true,
   },
   {
@@ -485,7 +485,7 @@ export const REVIEWS_DATA: StoreReview[] = [
     rating: 5,
     date: '1 week ago',
     service: 'iPhone 13 Back Glass & Battery',
-    comment: 'Other repair shops in Manhattan quoted me crazy prices and a 2-day turnaround. Kimi did laser back glass and swapped in a fresh battery in under 45 minutes on the spot. My phone looks brand new again. Amazing customer service!',
+    comment: 'Other repair shops in the Inland Empire quoted me crazy prices and a 2-day turnaround. Cellphone Repair & Accessories did laser back glass and swapped in a fresh battery in under 45 minutes on the spot. My phone looks brand new again. Amazing customer service!',
     verified: true,
   },
   {
@@ -494,7 +494,7 @@ export const REVIEWS_DATA: StoreReview[] = [
     rating: 5,
     date: '2 weeks ago',
     service: 'Purchased Refurbished iPhone 15 Pro',
-    comment: 'Bought a grade A+ unlocked 15 Pro Max here. Tested the cameras, battery health was at 99%, clean IMEI and they backed it with a store warranty. Best electronic deal on Canal St.',
+    comment: 'Bought a grade A+ unlocked 15 Pro Max here. Tested the cameras, battery health was at 99%, clean IMEI and they backed it with a store warranty. Best electronic deal in Rialto.',
     verified: true,
   },
   {
@@ -512,7 +512,7 @@ export const REVIEWS_DATA: StoreReview[] = [
     rating: 5,
     date: '1 month ago',
     service: 'Galaxy S23 Screen & Case',
-    comment: 'Fast, efficient, and direct. Walked right in from Canal St station, dropped off the phone, and picked it up before my train home. Screen colors and touch responsiveness are identical to factory OEM.',
+    comment: 'Fast, efficient, and direct. Pulled right into their lot on Foothill Blvd with easy parking, dropped off the phone, and picked it up quick. Screen colors and touch responsiveness are identical to factory OEM.',
     verified: true,
   }
 ];
@@ -520,11 +520,11 @@ export const REVIEWS_DATA: StoreReview[] = [
 export const FAQS_DATA = [
   {
     question: 'How long do phone repairs usually take?',
-    answer: 'Most standard repairs like iPhone screen and battery replacements take just 20 to 30 minutes! Back glass laser repair takes around 45 minutes. You can wait in our comfortable air-conditioned shop at 259 B Canal St or grab a quick coffee nearby.',
+    answer: 'Most standard repairs like iPhone screen and battery replacements take just 20 to 30 minutes! Back glass laser repair takes around 45 minutes. You can wait in our comfortable air-conditioned shop at 869 E Foothill Blvd or grab a quick coffee nearby.',
   },
   {
     question: 'Do I need an appointment or do you accept walk-ins?',
-    answer: 'Walk-ins are always warmly welcomed! We are open 7 days a week on Canal Street. You can also use our online booking calculator on this site to reserve your parts in advance and skip the line.',
+    answer: 'Walk-ins are always warmly welcomed! We are open 7 days a week on Foothill Blvd in Rialto. You can also use our online booking calculator on this site to reserve your parts in advance and skip the line.',
   },
   {
     question: 'Will I lose my photos, contacts, or data during repair?',

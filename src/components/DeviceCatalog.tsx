@@ -79,7 +79,7 @@ export const DeviceCatalog: React.FC<DeviceCatalogProps> = ({ onReserveDevice })
               Device Catalog &amp; Accessories
             </h2>
             <p className="text-neutral-400 text-sm sm:text-base mt-1 max-w-2xl">
-              100% Unlocked smartphones, certified grade A+ refurbished iPhones, iPads, and genuine MagSafe accessories in stock at 259 B Canal St.
+              100% Unlocked smartphones, certified grade A+ refurbished iPhones, iPads, and genuine accessories in stock at 869 E Foothill Blvd, Rialto.
             </p>
           </div>
 

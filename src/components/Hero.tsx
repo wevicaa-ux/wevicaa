@@ -29,15 +29,15 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           <div className="lg:col-span-7 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold tracking-wide">
               <MapPin className="w-3.5 h-3.5" />
-              <span>259 B Canal St, Chinatown, NYC • Walk-ins Welcomed</span>
+              <span>869 E Foothill Blvd, Rialto, CA • Walk-ins Welcomed</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-neutral-100 leading-[1.1]">
-              Express iPhone Repair &amp; Certified Devices on <span className="text-amber-400">Canal Street</span>
+              Express Smartphone Repair &amp; Accessories in <span className="text-amber-400">Rialto, CA</span>
             </h1>
 
             <p className="text-base sm:text-lg text-neutral-300 max-w-2xl leading-relaxed">
-              New York’s go-to mobile shop for cracked screens, laser back glass, fast battery replacement, and unlocked smartphones. Fast 20–45 minute turnaround, genuine quality parts, and an honest 30-day warranty.
+              Rialto and the Inland Empire’s trusted mobile shop for cracked screens, laser back glass, fast battery replacements, and unlocked devices. Fast 20–45 minute turnaround, quality tested parts, and an honest 30-day warranty.
             </p>
 
             {/* Value checklist */}
@@ -112,7 +112,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               </div>
               <span className="text-neutral-200 font-semibold">4.8 / 5.0 Rating</span>
               <span className="text-neutral-600">•</span>
-              <span>10,000+ Screen &amp; Battery Repairs in NYC</span>
+              <span>Trusted Mobile &amp; Screen Repairs in Rialto, CA</span>
             </div>
           </div>
 
@@ -124,7 +124,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                   <span className="text-xs font-semibold uppercase tracking-wider text-amber-400">
                     Direct Walk-In Service
                   </span>
-                  <h3 className="text-xl font-bold text-neutral-100">Kimi Mobile Repair Center</h3>
+                  <h3 className="text-xl font-bold text-neutral-100">Cellphone Repair &amp; Accessories</h3>
                 </div>
                 <div className="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
                   <Zap className="w-5 h-5" />
@@ -186,7 +186,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               <div className="mt-2 p-3.5 rounded-xl bg-gradient-to-r from-amber-500/10 to-amber-600/5 border border-amber-500/30 flex items-center justify-between">
                 <div>
                   <p className="text-xs font-bold text-amber-300">Need Immediate Help?</p>
-                  <p className="text-[11px] text-neutral-300">Bring your device directly to 259 B Canal St</p>
+                  <p className="text-[11px] text-neutral-300">Bring your device directly to 869 E Foothill Blvd</p>
                 </div>
                 <a
                   href={`tel:${STORE_INFO.phoneClean}`}

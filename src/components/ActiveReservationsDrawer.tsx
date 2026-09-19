@@ -157,7 +157,7 @@ export const ActiveReservationsDrawer: React.FC<ActiveReservationsDrawerProps> =
           <div className="text-xs text-neutral-300 space-y-1.5">
             <div className="flex items-start gap-1.5">
               <MapPin className="w-3.5 h-3.5 text-amber-400 shrink-0 mt-0.5" />
-              <span>{STORE_INFO.address} (Chinatown, NYC)</span>
+              <span>{STORE_INFO.address} (Rialto, CA)</span>
             </div>
             <div className="flex items-center gap-1.5">
               <Phone className="w-3.5 h-3.5 text-amber-400 shrink-0" />

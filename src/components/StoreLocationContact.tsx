@@ -6,7 +6,7 @@ import {
   Mail, 
   ExternalLink, 
   Navigation, 
-  Train, 
+  Car, 
   Send, 
   CheckCircle2, 
   HelpCircle, 
@@ -48,13 +48,13 @@ export const StoreLocationContact: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold uppercase tracking-wider mb-2">
             <MapPin className="w-3.5 h-3.5" />
-            <span>Chinatown / Lower Manhattan</span>
+            <span>Rialto / Inland Empire, CA</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-100 tracking-tight">
             Store Location &amp; Contact Information
           </h2>
           <p className="text-neutral-400 text-sm sm:text-base mt-2">
-            Visit us at 259 B Canal St in the heart of Manhattan. Steps from Canal St subway station, open 7 days a week.
+            Visit us at 869 E Foothill Blvd in Rialto, CA. Located along Historic Route 66 with free parking right out front, open 7 days a week.
           </p>
         </div>
 
@@ -98,13 +98,13 @@ export const StoreLocationContact: React.FC = () => {
                 </a>
               </div>
 
-              {/* Subway Access */}
+              {/* Highway & Parking Directions */}
               <div className="p-3.5 rounded-xl bg-neutral-900 border border-neutral-800 flex items-start gap-3">
-                <Train className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
+                <Car className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                 <div className="text-xs text-neutral-300">
-                  <p className="font-bold text-neutral-200">Subway Directions</p>
+                  <p className="font-bold text-neutral-200">Driving &amp; Parking Directions</p>
                   <p className="text-neutral-400 mt-0.5">
-                    Take the <strong className="text-amber-400">N, Q, R, W, J, Z, or 6</strong> train directly to Canal Street station. Our shop is located right at 259 B Canal St.
+                    Convenient access from <strong className="text-amber-400">I-10 and I-210</strong> via Riverside Ave or Willow Ave onto Foothill Blvd (Historic Route 66). Free dedicated customer parking right in front.
                   </p>
                 </div>
               </div>
@@ -196,15 +196,15 @@ export const StoreLocationContact: React.FC = () => {
               {/* Embedded Google Map */}
               <div className="relative w-full h-[320px] rounded-xl overflow-hidden border border-neutral-800">
                 <iframe
-                  title="Kimi iPhone Repair & Accessories Map"
-                  src="https://maps.google.com/maps?q=259+B+Canal+St,+New+York,+NY+10013&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                  title="Cellphone Repair & Accessories Map"
+                  src="https://maps.google.com/maps?q=869+E+Foothill+Blvd,+Rialto,+CA+92376&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   className="w-full h-full border-0 filter contrast-[0.95] brightness-[0.9]"
                   loading="lazy"
                   allowFullScreen
                 />
                 <div className="absolute bottom-3 left-3 bg-neutral-900/90 backdrop-blur-md px-3 py-1.5 rounded-lg border border-neutral-750 text-[11px] text-neutral-200 flex items-center gap-2 shadow-lg">
                   <div className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-                  <span>259 B Canal St • Walk-ins Welcomed Now</span>
+                  <span>869 E Foothill Blvd • Walk-ins Welcomed Now</span>
                 </div>
               </div>
             </div>
@@ -215,7 +215,7 @@ export const StoreLocationContact: React.FC = () => {
                 <div>
                   <h3 className="text-base font-bold text-neutral-100">Send an Inquiry or Question</h3>
                   <p className="text-xs text-neutral-400 mt-0.5">
-                    Have a question about phone availability or a specific motherboard issue? We respond quickly.
+                    Have a question about phone availability or a specific repair issue? We respond quickly.
                   </p>
                 </div>
               </div>
@@ -254,7 +254,7 @@ export const StoreLocationContact: React.FC = () => {
                       rows={3}
                       value={contactMessage}
                       onChange={(e) => setContactMessage(e.target.value)}
-                      placeholder="e.g. Do you have iPhone 15 Pro in Natural Titanium in stock today? Or can you fix water damage?"
+                      placeholder="e.g. Do you have iPhone 15 Pro in stock today? Or can you fix water damage?"
                       className="w-full px-3 py-2 text-xs bg-neutral-900 border border-neutral-750 rounded-lg text-neutral-100 placeholder-neutral-500 focus:outline-none focus:border-amber-400"
                     />
                   </div>
@@ -264,7 +264,7 @@ export const StoreLocationContact: React.FC = () => {
                     className="py-2.5 px-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-neutral-950 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors shadow-sm"
                   >
                     <Send className="w-3.5 h-3.5" />
-                    <span>Send Message to Kimi Store</span>
+                    <span>Send Message to Store</span>
                   </button>
                 </form>
               ) : (
@@ -272,7 +272,7 @@ export const StoreLocationContact: React.FC = () => {
                   <CheckCircle2 className="w-8 h-8 text-emerald-400 mx-auto" />
                   <h4 className="text-sm font-bold text-neutral-100">Message Received!</h4>
                   <p className="text-xs text-neutral-300">
-                    Thank you {contactName}. Our team at 259 B Canal St will follow up shortly. For urgent repairs, feel free to call directly at {STORE_INFO.phone}.
+                    Thank you {contactName}. Our team at 869 E Foothill Blvd will follow up shortly. For urgent repairs, feel free to call directly at {STORE_INFO.phone}.
                   </p>
                   <button
                     onClick={() => {
@@ -294,7 +294,7 @@ export const StoreLocationContact: React.FC = () => {
           <div className="text-center mb-6">
             <h3 className="text-2xl font-bold text-neutral-100">Frequently Asked Questions</h3>
             <p className="text-xs text-neutral-400 mt-1">
-              Everything you need to know before visiting our Canal Street repair shop.
+              Everything you need to know before visiting our Rialto repair shop.
             </p>
           </div>
 

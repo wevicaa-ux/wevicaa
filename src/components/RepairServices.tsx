@@ -56,13 +56,13 @@ export const RepairServices: React.FC<RepairServicesProps> = ({
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold uppercase tracking-wider mb-2">
             <Wrench className="w-3.5 h-3.5" />
-            <span>Master Technicians on Canal Street</span>
+            <span>Certified Technicians in Rialto, CA</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-100 tracking-tight">
             Professional Mobile Repair Services
           </h2>
           <p className="text-neutral-400 text-sm sm:text-base mt-2">
-            All repairs are performed on-site at 259 B Canal St. Backed by our 30-Day Hassle-Free Warranty, no appointment required.
+            All repairs are performed on-site at 869 E Foothill Blvd. Backed by our 30-Day Hassle-Free Warranty, walk-ins welcome.
           </p>
         </div>
 
@@ -143,7 +143,7 @@ export const RepairServices: React.FC<RepairServicesProps> = ({
             </div>
             <div>
               <h4 className="text-base font-bold text-neutral-100">
-                Our 30-Day Canal St Repair Guarantee
+                Our 30-Day Express Repair Guarantee
               </h4>
               <p className="text-xs sm:text-sm text-neutral-400 mt-0.5 max-w-xl">
                 Every screen, battery, and camera replacement comes with an unconditional 30-day parts &amp; labor warranty. If anything glitches, we fix it free of charge.

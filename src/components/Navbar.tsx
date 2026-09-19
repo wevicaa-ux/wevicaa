@@ -30,20 +30,20 @@ export const Navbar: React.FC<NavbarProps> = ({
   const [isOpen, setIsOpen] = useState(false);
   const [isStoreOpen, setIsStoreOpen] = useState<boolean>(true);
 
-  // Calculate live store opening status in NY Time (Eastern Time)
+  // Calculate live store opening status in California Time (Pacific Time)
   useEffect(() => {
     const checkStoreStatus = () => {
       try {
         const now = new Date();
-        const nyTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/New_York' }));
-        const day = nyTime.getDay(); // 0 = Sunday, 1 = Monday, ...
-        const hour = nyTime.getHours();
-        const minute = nyTime.getMinutes();
+        const ptTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+        const day = ptTime.getDay(); // 0 = Sunday, 1 = Monday, ...
+        const hour = ptTime.getHours();
+        const minute = ptTime.getMinutes();
         const currentTimeInMinutes = hour * 60 + minute;
 
         if (day === 0) {
-          // Sunday: 11:00 AM (660m) - 6:30 PM (1110m)
-          setIsStoreOpen(currentTimeInMinutes >= 660 && currentTimeInMinutes <= 1110);
+          // Sunday: 11:00 AM (660m) - 6:00 PM (1080m)
+          setIsStoreOpen(currentTimeInMinutes >= 660 && currentTimeInMinutes <= 1080);
         } else {
           // Monday - Saturday: 10:00 AM (600m) - 7:30 PM (1170m)
           setIsStoreOpen(currentTimeInMinutes >= 600 && currentTimeInMinutes <= 1170);
@@ -81,13 +81,13 @@ export const Navbar: React.FC<NavbarProps> = ({
               title="Open Google Maps location"
             >
               <MapPin className="w-3.5 h-3.5 text-amber-500 shrink-0" />
-              <span>{STORE_INFO.address} (Chinatown, NYC)</span>
+              <span>{STORE_INFO.address}</span>
               <ExternalLink className="w-3 h-3 text-neutral-500" />
             </a>
             <span className="hidden md:inline text-neutral-700">|</span>
             <div className="hidden md:flex items-center gap-1.5">
               <Clock className="w-3.5 h-3.5 text-neutral-400" />
-              <span>Mon-Sat: 10AM-7:30PM • Sun: 11AM-6:30PM</span>
+              <span>Mon-Sat: 10AM-7:30PM • Sun: 11AM-6PM</span>
             </div>
           </div>
 
@@ -126,14 +126,14 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-bold text-lg text-neutral-100 tracking-tight leading-none group-hover:text-amber-400 transition-colors">
-                  KIMI
+                  CELLPHONE REPAIR
                 </span>
                 <span className="text-xs px-1.5 py-0.5 bg-amber-500/10 text-amber-400 border border-amber-500/30 rounded font-medium">
-                  Canal St
+                  Rialto, CA
                 </span>
               </div>
               <p className="text-[11px] text-neutral-400 font-medium leading-tight mt-0.5">
-                iPhone Repair & Accessories
+                Repairs &amp; Accessories • Foothill Blvd
               </p>
             </div>
           </button>
@@ -231,7 +231,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="w-full py-2.5 px-4 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-400 flex items-center justify-center gap-2 text-sm font-medium"
             >
               <MapPin className="w-4 h-4 text-amber-400" />
-              <span>Directions: 259 B Canal St</span>
+              <span>Directions: 869 E Foothill Blvd</span>
             </a>
           </div>
         </div>
